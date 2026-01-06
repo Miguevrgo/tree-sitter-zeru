@@ -12,13 +12,13 @@
   ],
   "author": "Miguel",
   "license": "MIT",
-  "homepage": "https://github.com/miguevr/tree-sitter-zeru",
+  "homepage": "https://github.com/Miguevrgo/tree-sitter-zeru",
   "bugs": {
-    "url": "https://github.com/miguevr/tree-sitter-zeru/issues"
+    "url": "https://github.com/Miguevrgo/tree-sitter-zeru/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miguevr/tree-sitter-zeru.git"
+    "url": "git+https://github.com/Miguevrgo/tree-sitter-zeru.git"
   },
   "files": [
     "grammar.js",

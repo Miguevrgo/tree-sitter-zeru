@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[Tree-sitter](https://tree-sitter.github.io/) grammar for the [Zeru](https://github.com/miguevr/Zeru) programming language.
+[Tree-sitter](https://tree-sitter.github.io/) grammar for the [Zeru](https://github.com/Miguevrgo/Zeru) programming language.
 
 ## Features
 
@@ -34,7 +34,7 @@
 #### 1. Clone and build
 
 ```bash
-git clone https://github.com/miguevr/tree-sitter-zeru
+git clone https://github.com/Miguevrgo/tree-sitter-zeru
 cd tree-sitter-zeru
 
 # Compile the parser
@@ -98,7 +98,7 @@ indent = { tab-width = 4, unit = "    " }
 
 [[grammar]]
 name = "zeru"
-source = { git = "https://github.com/miguevr/tree-sitter-zeru", rev = "main" }
+source = { git = "https://github.com/Miguevrgo/tree-sitter-zeru", rev = "main" }
 ```
 
 Then run:
@@ -116,7 +116,7 @@ cp queries/*.scm ~/.config/helix/runtime/queries/zeru/
 
 ```elisp
 (add-to-list 'treesit-language-source-alist
-             '(zeru "https://github.com/miguevr/tree-sitter-zeru"))
+             '(zeru "https://github.com/Miguevrgo/tree-sitter-zeru"))
 (treesit-install-language-grammar 'zeru)
 ```
 
@@ -210,6 +210,6 @@ MIT License - see [LICENSE](LICENSE)
 
 ## Related
 
-- [Zeru Language](https://github.com/miguevr/Zeru) - The Zeru compiler
+- [Zeru Language](https://github.com/Miguevrgo/Zeru) - The Zeru compiler
 - [Tree-sitter](https://tree-sitter.github.io/) - Parsing library
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Neovim integration
